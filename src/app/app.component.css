@@ -75,7 +75,7 @@ nav a{
         float:right;
     }
     nav{
-        float: left;
+        margin: 0;
         width: 24rem;
         background-color: #cdcccc;
         padding: 18px;
