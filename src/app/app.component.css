@@ -54,7 +54,7 @@ nav a{
 
 @media screen and (max-width: 36rem) {
     html{
-        width:24rem;
+        width:20rem;
     }
     
     .logo img{
