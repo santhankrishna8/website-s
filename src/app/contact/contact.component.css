@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+   
+}
+.container .l{
+    
+    text-align: center;
+    align-content:center ;
+    width: 250px;
+    height:200px;
+    background-color: rgb(216, 211, 211);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
