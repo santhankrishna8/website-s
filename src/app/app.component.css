@@ -43,6 +43,10 @@ nav a{
 
 
 @media screen and (max-width: 36rem) {
+    *{
+        overflow-x: hidden;
+        width: 100lvh;
+    }
     .logo img{
         width: 100px;
         height: 100px;
