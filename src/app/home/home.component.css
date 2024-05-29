@@ -49,6 +49,55 @@
 
 
 @media screen and (max-width: 36rem) {
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        padding: auto;
+        scroll-behavior: smooth;
+    }
+    .slider-container {
+        width: 80%;
+        overflow: hidden;
+        position: relative;
+        height:700px;
+    }
     
+    .slider {
+        display: flex;
+        width: 100%;
+        animation: slide 60s infinite;
+        height:700px
+    }
+    
+    .slider:hover {
+        animation-play-state: paused;
+    }
+    
+    .slide {
+        width: 100%;
+        flex-shrink: 0;
+    }
+    
+    .slide img {
+        width: 100%;
+        display: block;
+        height:700px;
+    }
+    
+    @keyframes slide {
+        0% {
+             transform: translateX(0%);
+             }
+        16.67% {
+             transform: translateX(-100%);
+         }
+        33.34% { transform: translateX(-200%); }
+        50.01% { transform: translateX(-300%); }
+        66.68% { transform: translateX(-400%); }
+        83.35% { transform: translateX(-500%); }
+        100% { transform: translateX(0%); }
+    }
+    
+
 
 }
