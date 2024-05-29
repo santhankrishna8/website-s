@@ -17,7 +17,7 @@
 .logo2 img{
     width: 400px;
     height: 200px;
-    margin-left: 290px;
+    margin-left: 200px;
     
 }
 .logo3 img{
@@ -39,31 +39,42 @@ nav a{
     font-size: 1.3rem;
 
 }
-
+.iname1{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 14px;
+    position: static;
+    margin-left: -130px;
+}
+.iname2{
+    width: 40%;
+    margin-left: 200px;
+}
 
 
 @media screen and (max-width: 36rem) {
-    *{
-        
-        width: 100vh;
-    }
+    
     .logo img{
         width: 100px;
         height: 100px;
+        float: left;
+
     }
     .logo2 img{
         width: 200px;
         height: 100px;
-        margin-left: 40px;
+        margin-left: 30px;
         
     }
     .logo3 img{
         width: 100px;
         height: 100px;
+        float:right;
     }
     nav{
         margin-left: 0px;
         margin-right: 0px;
+        width: 26.8rem;
         background-color: #cdcccc;
         padding: 18px;
         border-radius: 20px;
@@ -76,6 +87,16 @@ nav a{
         font-size: 1.3rem;
     
     }
+     .iname1{
+        margin-left: -0px
+
+   }
+   .iname2{
+    margin-left: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 90%;
+   }
     
 
 }
