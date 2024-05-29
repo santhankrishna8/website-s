@@ -53,9 +53,7 @@ nav a{
 
 
 @media screen and (max-width: 36rem) {
-    html{
-        width:15rem;
-    }
+   
     
     .logo img{
         width: 100px;
@@ -66,7 +64,7 @@ nav a{
     .logo2 img{
         width: 200px;
         height: 100px;
-        margin-left: 7px;
+        margin-left: 2rem;
         
     }
     .logo3 img{
@@ -75,8 +73,8 @@ nav a{
         float:right;
     }
     nav{
-        margin: 0;
-        width: 24rem;
+        margin-left: -10px;
+        width: 29rem;
         background-color: #cdcccc;
         padding: 18px;
         border-radius: 20px;
