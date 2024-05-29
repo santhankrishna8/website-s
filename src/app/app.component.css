@@ -53,7 +53,9 @@ nav a{
 
 
 @media screen and (max-width: 36rem) {
-   
+   html{
+    zoom:90%;
+   }
     
     .logo img{
         width: 100px;
