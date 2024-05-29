@@ -54,9 +54,10 @@
         margin: auto;
         padding: auto;
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
     .slider-container {
-        width: 80%;
+        width: 100%;
         overflow: hidden;
         position: relative;
         height:700px;
@@ -69,10 +70,10 @@
         height:700px
     }
     
-    .slider:hover {
+    .slider:active {
         animation-play-state: paused;
-    }
     
+    }
     .slide {
         width: 100%;
         flex-shrink: 0;
