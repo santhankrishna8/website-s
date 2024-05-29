@@ -74,6 +74,9 @@ nav a{
         height: 100px;
         float:right;
     }
+    .middle{
+        text-align: center;
+    }
     nav{
         margin-left: -10px;
         width: 100%;
