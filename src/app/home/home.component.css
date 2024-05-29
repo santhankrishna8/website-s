@@ -55,6 +55,10 @@
         padding: auto;
         scroll-behavior: smooth;
         overflow-x: hidden;
+
+    }
+    html{
+        width:90%;
     }
     .slider-container {
         height: 300px; /* Adjust height for smaller screens */
