@@ -41,3 +41,37 @@ nav a{
 }
 
 
+
+@media screen and (max-width: 36rem) {
+    .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .logo2 img{
+        width: 200px;
+        height: 100px;
+        margin-left: 40px;
+        
+    }
+    .logo3 img{
+        width: 100px;
+        height: 100px;
+    }
+    nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: #cdcccc;
+        padding: 18px;
+        border-radius: 20px;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        flex-wrap: wrap;
+        margin-right: 40px;
+        font-size: 1.3rem;
+    
+    }
+    
+
+}
